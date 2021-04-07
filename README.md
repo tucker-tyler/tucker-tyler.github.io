@@ -3,4 +3,5 @@
 A portfolio for Tyler Tucker, an aspiring software developer and recent BYU-Idaho graduate.
 
 Visit my projects
-*https://jsunitcalc.glitch.me
+<br>
+  <li><a href="https://jsunitcalc.glitch.me" target="_blank">JS Unit Calc</a></li>
