@@ -139,3 +139,8 @@ footer {
 #projects-icon {
   color: var(--tamarama);
 }
+
+.avatar-pic {
+  height: 100px;
+  width: 100px;
+}
