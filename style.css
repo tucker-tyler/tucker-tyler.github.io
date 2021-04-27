@@ -18,24 +18,24 @@
   --image-max-width: 300px;
   --image-margin: 3rem;
   --font-family: "Roboto", sans-serif;
-  
-  /* Coolors.io color-scheme */
-/* src: https://coolors.co/172b4d-0052cc-ffffff-3e8989-2a7f62 */
---space-cadet: #172b4dff;
---cerulean-blue: #0052ccff;
---white: #ffffffff;
---dark-cyan: #3e8989ff;
---generic-viridian: #2a7f62ff;
 
-/* other colors */
---poppy-sunrise: #FF5630; /* reddish orange */
---golden-state: #FFAB00; /* golden yellow */
---fine-pine: #36B37E; /* pine tree green */
---tamarama: #00B8D9; /* medium blue, slight turquoise */
---da-juice: #6554C0; /* purple with a hint of blue */
-  
---linked-in: #0e76a8;
---github: #8a63d2;
+  /* Coolors.io color-scheme */
+  /* src: https://coolors.co/172b4d-0052cc-ffffff-3e8989-2a7f62 */
+  --space-cadet: #172b4dff;
+  --cerulean-blue: #0052ccff;
+  --white: #ffffffff;
+  --dark-cyan: #3e8989ff;
+  --generic-viridian: #2a7f62ff;
+
+  /* other colors */
+  --poppy-sunrise: #FF5630; /* reddish orange */
+  --golden-state: #FFAB00; /* golden yellow */
+  --fine-pine: #36B37E; /* pine tree green */
+  --tamarama: #00B8D9; /* medium blue, slight turquoise */
+  --da-juice: #6554C0; /* purple with a hint of blue */
+
+  --linked-in: #0e76a8;
+  --github: #8a63d2;
 }
 
 /* -------------------------page style----------------------*/
@@ -105,6 +105,20 @@ footer {
   text-decoration: none;
 }
 
+/* resume div ids for animation */
+
+#edu-section {
+}
+
+#work-section {
+}
+
+#skills-section {
+}
+
+#proj-section {
+}
+
 /*--------------------icon styles-----------*/
 
 .social-div {
@@ -143,4 +157,8 @@ footer {
 .avatar-pic {
   height: 100px;
   width: 100px;
+}
+
+#btn-link {
+  text-decoration: none;
 }
