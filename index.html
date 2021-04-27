@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="" />
 
-    <title>Tyler Tucker</title>
+    <title>Tyler Tucker Resume</title>
 
     <!-- meta tags for SEO and social sharing -->
     <meta
@@ -34,11 +34,23 @@
     <!-- page wrapper -->
     <div class="page-div w3-card-2">
       <header>
-<!--         <img src="https://cdn.glitch.com/00eb9c07-3bee-4b24-900e-beb6495b3f6a%2FAvatarMaker.png?v=1619072697582" alt="tyler avatar" class="avatar-pic"> -->
+        <!--         <img src="https://cdn.glitch.com/00eb9c07-3bee-4b24-900e-beb6495b3f6a%2FAvatarMaker.png?v=1619072697582" alt="tyler avatar" class="avatar-pic"> -->
         <h1>
           Tyler Tucker Resume
           <i class="em em-notebook_with_decorative_cover"></i>
         </h1>
+        <div class="w3-button w3-black">
+          <small>
+            <a
+              href="https://cdn.glitch.com/00eb9c07-3bee-4b24-900e-beb6495b3f6a%2Fresume-april-2021.pdf?v=1619495060470"
+              target="_blank"
+              download="tyler-resume"
+              id="btn-link"
+              >Download my resume PDF
+              <i class="fas fa-download" id="resume-icon"></i
+            ></a>
+          </small>
+        </div>
         <!--       <nav>
         <ul>
           <li>
@@ -61,7 +73,7 @@
       </header>
       <main>
         <div class="resume-div">
-          <div class="resume-section w3-card-2">
+          <div class="resume-section w3-card-2" id="edu-section">
             <h3>
               <i class="fas fa-graduation-cap" id="gradcap-icon"></i> Education
             </h3>
@@ -90,7 +102,7 @@
             </ul>
           </div>
           <hr />
-          <div class="resume-section w3-card-2">
+          <div class="resume-section w3-card-2" id="work-section">
             <h3>
               <i class="fas fa-briefcase" id="work-icon"></i> Work Experience
             </h3>
@@ -126,7 +138,7 @@
             </ul>
           </div>
           <hr />
-          <div class="resume-section w3-card-2">
+          <div class="resume-section w3-card-2" id="skills-section">
             <h3><i class="fas fa-scroll" id="skills-icon"></i> Skills</h3>
             <hr />
             <ul>
@@ -142,7 +154,7 @@
             </ul>
           </div>
           <hr />
-          <div class="resume-section w3-card-2">
+          <div class="resume-section w3-card-2" id="proj-section">
             <h3>
               <i class="fas fa-laptop-code" id="projects-icon"></i> Projects
             </h3>
@@ -193,4 +205,8 @@
       </footer>
     </div>
   </body>
+  <!-- script CDNs -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- scripts -->
+  <script src="zoom.js"></script>
 </html>
