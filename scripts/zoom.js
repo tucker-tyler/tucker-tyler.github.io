@@ -1,4 +1,4 @@
-// zoom.js -- a file that makes it so the resume divs zoom slightly on hover
+// makes it so the resume divs zoom slightly on hover
 
 // $(document).on(
 //   {
