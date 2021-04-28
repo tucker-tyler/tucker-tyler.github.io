@@ -1,0 +1,12 @@
+{
+  "name": "pug",
+  "version": "3.0.0",
+  "url": "https://pugjs.org/api/getting-started.html",
+  "dependencies": {
+    "pug": "^3.0.2",
+    "pug-cli": "^0.0.0",
+    "pug-runtime": "^3.0.1",
+    "pug-walk": "^2.0.0",
+    "gulp-pug": "^4.0.1"
+  }
+}
