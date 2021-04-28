@@ -1,3 +1,5 @@
+// scroll back to the top of the page
+
 //Get the button
 var mybutton = document.getElementById("topBtn");
 

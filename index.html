@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
     <!-- usability -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="" />
+    <!--link rel="icon" href="" /-->
 
     <title>Tyler Tucker Resume</title>
 
@@ -17,7 +17,7 @@
     <!--     <meta name="robots" content="index,follow" /> -->
     <meta property="url" content="https://codingtyler.glitch.me/" />
 
-    <!-- import the webpage's stylesheet -->
+    <!-- style sheets -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
@@ -27,186 +27,36 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
   </head>
   <body>
     <!-- page wrapper -->
     <div class="page-div w3-card-2">
-      <header>
-        <!--         <img src="https://cdn.glitch.com/00eb9c07-3bee-4b24-900e-beb6495b3f6a%2FAvatarMaker.png?v=1619072697582" alt="tyler avatar" class="avatar-pic"> -->
-        <h1>
-          Tyler Tucker Resume
-          <i class="em em-notebook_with_decorative_cover"></i>
-        </h1>
-        <div class="w3-button w3-black">
-          <small>
-            <a
-              href="https://cdn.glitch.com/00eb9c07-3bee-4b24-900e-beb6495b3f6a%2Fresume-april-2021.pdf?v=1619495060470"
-              target="_blank"
-              download="tyler-resume"
-              id="btn-link"
-              >Download my resume PDF
-              <i class="fas fa-download" id="resume-icon"></i
-            ></a>
-          </small>
-        </div>
-        <!--       <nav>
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="view/education.html">Education</a>
-          </li>
-          <li>
-            <a href="view/skills.html">Skills</a>
-          </li>
-          <li>
-            <a href="view/work.html">Work history</a>
-          </li>
-          <li>
-            <a href="view/projects.html">Projects</a>
-          </li>
-        </ul>
-      </nav> -->
-      </header>
+      <header id="header"></header>
       <main>
+        <!-- resume div -->
         <div class="resume-div">
-          <div class="resume-section w3-card-2" id="edu-section">
-            <h3>
-              <i class="fas fa-graduation-cap" id="gradcap-icon"></i> Education
-            </h3>
-            <hr />
-            <h4>
-              BYU-Idaho
-            </h4>
-            <h5>
-              Bachelor's of Science in
-              <strong>Computer Information Technology</strong>, 2021
-            </h5>
-            <ul>
-              <li>
-                American Sign Language Association Vice-President
-                <i class="fas fa-american-sign-language-interpreting"></i>
-              </li>
-              <li>
-                Emphasis: Web and software development
-                <i class="far fa-file-code"></i>
-              </li>
-              <li>
-                Course skill examples: Java, Android, SQL, JavaScript, HTML/CSS,
-                networking, operating systems, Python
-                <i class="fas fa-code"></i>
-              </li>
-            </ul>
-          </div>
+          <!-- education section -->
+          <div class="resume-section w3-card-2" id="edu-section"></div>
           <hr />
-          <div class="resume-section w3-card-2" id="work-section">
-            <h3>
-              <i class="fas fa-briefcase" id="work-icon"></i> Work Experience
-            </h3>
-            <hr />
-            <h4>
-              <a href="https://mutual.app" target="_blank"
-                >Mutual - LDS Dating</a
-              >
-              <i class="fas fa-external-link-alt"></i>
-            </h4>
-            <h5>
-              Quality Assurance Analyst
-            </h5>
-            <ul>
-              <li>Agile testing of web and mobile apps</li>
-              <li>Automated testing</li>
-              <li>Training other QAs</li>
-              <li>SQL</li>
-            </ul>
-            <h5>
-              Technical Support Analyst
-            </h5>
-            <ul>
-              <li>
-                Technical support for customers
-              </li>
-              <li>
-                Bug tracking
-              </li>
-              <li>
-                Data analysis
-              </li>
-            </ul>
-          </div>
+          <!-- work section -->
+          <div class="resume-section w3-card-2" id="work-section"></div>
           <hr />
-          <div class="resume-section w3-card-2" id="skills-section">
-            <h3><i class="fas fa-scroll" id="skills-icon"></i> Skills</h3>
-            <hr />
-            <ul>
-              <li>Java <i class="fab fa-java"></i></li>
-              <li>Android <i class="fab fa-android"></i></li>
-              <li>
-                HTML/CSS <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-              </li>
-              <li>JavaScript <i class="fab fa-js-square"></i></li>
-              <li>Angular JS <i class="fab fa-angular"></i>, jQuery</li>
-              <li>SQL <i class="fas fa-database"></i></li>
-            </ul>
-          </div>
+          <!-- skills section -->
+          <div class="resume-section w3-card-2" id="skills-section"></div>
           <hr />
-          <div class="resume-section w3-card-2" id="proj-section">
-            <h3>
-              <i class="fas fa-laptop-code" id="projects-icon"></i> Projects
-            </h3>
-            <i class="fas fa-external-link-alt"></i>
-            <hr />
-            <ul>
-              <li>
-                <a href="https://jsunitcalc.glitch.me" target="_blank"
-                  >JS Unit Calculator</a
-                >: Angular JS, HTML/CSS, UI/UX design
-              </li>
-              <li>
-                <a
-                  href="https://github.com/tucker-tyler/kanbanana"
-                  target="_blank"
-                  >Kanbanana</a
-                >: Android app (Java), XML, SQLite
-              </li>
-              <li>
-                <a
-                  href="https://github.com/tucker-tyler/rockpaperpython"
-                  target="_blank"
-                  >Rock, Paper, Scissors</a
-                >: Python
-              </li>
-            </ul>
-          </div>
+          <!-- project section -->
+          <div class="resume-section w3-card-2" id="proj-section"></div>
         </div>
       </main>
-      <footer>
-        <div class="social-div">
-          <a
-            href="https://github.com/tucker-tyler"
-            target="_blank"
-            id="github-icon"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a
-            href="https://linkedin.com/in/tuckertyler"
-            target="_blank"
-            id="linkedin-icon"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </div>
-        &copy; 2021 Tyler Tucker
-        <br />
-        <small>Updated April 2021</small>
-      </footer>
+      <footer id="footer"></footer>
     </div>
   </body>
   <!-- script CDNs -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- scripts -->
-  <script src="zoom.js"></script>
+  <script src="/scripts/zoom.js"></script>
+  <script src="/scripts/back-to-top.js"></script>
+  <script src="/scripts/accordion.js"></script>
+
+  <script src="/scripts/modules.js"></script>
 </html>
